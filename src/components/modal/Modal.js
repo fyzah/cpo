@@ -25,9 +25,9 @@ export default function Modal(props) {
                 mainCause: cause,
                 shortDescription: description
             });
-            e.preventDefault();
             handleClose(false);
-        }
+        } 
+        e.preventDefault();
     }
 
     const formValidation = () => {
